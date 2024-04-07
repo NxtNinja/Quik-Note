@@ -1,0 +1,35 @@
+{
+  "name": "notes-app-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.2.10",
+    "@tanstack/react-query": "^5.28.9",
+    "axios": "^1.6.8",
+    "framer-motion": "^11.0.23",
+    "jotai": "^2.7.1",
+    "js-cookie": "^3.0.5",
+    "jspdf": "^2.5.1",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.2",
+    "react-quill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
